@@ -1,0 +1,26 @@
+{
+  "name": "node-users",
+  "version": "1.0.0",
+  "description": "CRUD simples para busca de usuários em um banco de dados PostgreSQL",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LGustta13/node-users.git"
+  },
+  "keywords": [
+    "crud",
+    "node",
+    "postgresql",
+    "users",
+    "api"
+  ],
+  "author": "Luis Gustavo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LGustta13/node-users/issues"
+  },
+  "homepage": "https://github.com/LGustta13/node-users#readme"
+}
