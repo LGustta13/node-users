@@ -1,6 +1,6 @@
 import Fastify from "fastify";
 import cors from "@fastify/cors";
-import { getUsers } from "./lib/conn.js";
+import { createUser, getUsers } from "./lib/conn.js";
 
 const app = Fastify();
 const port = 3333;
@@ -10,7 +10,8 @@ app.register(cors, {
     origin: true,
 })
 
-app.get('/users', getUsers)
+app.get('/users', getUsers);
+app.post('/users', createUser);
 
 try {
     app.listen({
