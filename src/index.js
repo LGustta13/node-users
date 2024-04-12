@@ -4,7 +4,7 @@ import { createUser, getUsers } from "./lib/conn.js";
 
 const app = Fastify();
 const port = 3333;
-const host = "0.0.0.0"
+const host = "0.0.0.0";
 
 app.register(cors, {
     origin: true,
